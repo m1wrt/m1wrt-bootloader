@@ -1,0 +1,2 @@
+floppya: 1_44=C:\Users\Juan Alustiza\AppData\Local\bin\NASM\code\boot.bin, status=inserted
+boot: a
