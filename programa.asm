@@ -1,6 +1,8 @@
 [BITS 16]
 [ORG 0x7C00]
 
+; Programado por: m1wrt
+
 start:
     mov si, msg          ; Cargar la dirección del mensaje en SI
 	call print_string    ; Llamar a la función para imprimir el mensaje
