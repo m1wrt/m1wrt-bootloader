@@ -19,7 +19,7 @@ print_string:
 .done:
     ret                  ; Retornar de la función
 
-msg db 'Hello, perras sucias!', 0 ; El mensaje a imprimir, terminado en nulo
+msg db 'Hola mundo!', 0 ; El mensaje a imprimir, terminado en nulo
 
 times 510-($-$$) db 0    ; Rellenar con ceros hasta 510 bytes
 dw 0xAA55                ; Firma de arranque
